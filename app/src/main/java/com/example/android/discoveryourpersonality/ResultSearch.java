@@ -111,7 +111,6 @@ public class ResultSearch extends Activity {
         settings.setDefaultFontSize(20);
         settings.setDefaultTextEncodingName("utf-8");
         webViewResultado.loadDataWithBaseURL(null,resultadofinal,"text/html","utf-8",null);
-        //webViewResultado.loadData(resultadofinal, "text/html", "UTF-8");
 
     }
 }
