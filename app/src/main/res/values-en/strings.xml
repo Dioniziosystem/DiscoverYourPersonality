@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Discover Your Personality</string>
+    <string name="btResultado">Result</string>
+    <string name="question1">Do you have an active imagination?</string>
+    <string name="question10">Is it reserved?</string>
+    <string name="question2">Do you have few artistic interests?</string>
+    <string name="question3">Are you strict at work?</string>
+    <string name="question4">Do you tend to be lazy?</string>
+    <string name="question5">Do you usually be confident?</string>
+    <string name="question6">Do you tend to find fault with others?</string>
+    <string name="question8">Does he get nervous easily?</string>
+    <string name="question7">Is it calm, faces stress well?</string>
+    <string name="question9">Is it expansive, social?</string>
+    <string name="title">Discover Your Personality</string>
+
+    <string-array name="points_answer">
+        <item>1 I DISAGREE COMPLETELY</item>
+        <item>2 DISAGREE A LITTLE</item>
+        <item>3 DO NOT DISAGREE OR AGREE</item>
+        <item>4 AGREE LITTLE</item>
+        <item>5 I AGREE COMPLETELY</item>
+    </string-array>
+
+    <string name="titleAbAlta">High Aperture: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleAbBaixa">Low Aperture: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleAbNormal">Normal Aperture: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleAfAlta">High Affordability: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleAfBaixa">Low Affordability: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleAfNormal">Normal Affordability: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleCAlta">High Conscientiousness: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleCBaixa">Low Conscientiousness: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleCNormal">Normal Conscientiousness: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleEsAlta">High Stability: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleEsBaixa">Low Stability: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleEsNormal">Normal Stability: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleExBaixa">Low Extroversion: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleExAlta">High Extroversion: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="titleExNormal">Normal Extroversion: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorAbAlta">Opening is openness to experience: curiosity, search for novelty, openness of mind, interest in culture, ideas and aesthetics. The opening indicates emotional sensitivity, social tolerance and political liberalism. People who have high levels of openness tend to look for complexity and novelty, easily accept changes and innovations, and prefer great new visions than mundane and predictable routines.</string>
+    <string name="valorAbBaixa">Opening is openness to experience: curiosity, search for novelty, openness of mind, interest in culture, ideas and aesthetics. The opening indicates emotional sensitivity, social tolerance, and political liberalism. People with low levels of openness tend to look for simplicity and predictability, resist change, and respect tradition.</string>
+    <string name="valorAbNormal">Opening is openness to experience: curiosity, search for novelty, openness of mind, interest in culture, aesthetic ideas. The opening prognoses emotional sensitivity, social tolerance and political liberalism. People with normal levels of openness tend to resist change, but over time accept change.</string>
+    <string name="valorAfAlta">Afability is related to cordiality, gentleness, sympathy, empathy, trust, modesty, and benevolence. People with high affability tend to seek harmony, to adjust to the needs of others, and to keep opinions to themselves in order to avoid conflict.</string>
+    <string name="valorAfBaixa">Afability is related to cordiality, gentleness, sympathy, empathy, trust, modesty, and benevolence. People of low affability tend to seek glory or notoriety, to satisfy their own needs and express their opinions vehemently.</string>
+    <string name="valorAfNormal">Afability is related to cordiality, gentleness, sympathy, empathy, trust, modesty, and benevolence. People with normal affability seek to avoid conflicts, but when forced, they express their true opinions.</string>
+    <string name="valorCAlta">Conscientiousness corresponds to self-control, willpower, reliability, consistency, trustworthiness, and ability to delay gratification. Conscientious people aim for long-term goals. They keep promises and commitments, resist impulses and bad habits, and feel involved in a network of mutual social obligations. They like to do projects, keep everything organized, pursue perfection, yearn for accomplishments, and prefer to perform and focus on one task at a time.</string>
+    <string name="valorCBaixa">Conscientiousness corresponds to self-control, willpower, reliability, consistency, trustworthiness, and ability to delay gratification. People with little conscientiousness tend to feel more comfortable with spontaneity and chaos. They accept things, people, and \ "regular \" performance levels instead of \ "great \", and alternate with more ease between current tasks. However, they also demonstrate lower levels of motivation and ambition.</string>
+    <string name="valorCNormal">Conscientiousness corresponds to self-control, willpower, reliability, consistency, trustworthiness, and ability to delay gratification. People with normal levels of conscientiousness seek to accomplish tasks, but have no obsession with perfection and deadline.</string>
+    <string name="valorEsAlta">Stability is linked to emotional stability. Stability means adaptability, equanimity, maturity and resistance to stress. Highly stable people are cheerful, usually optimistic, calm, comfortable, and quickly recover from setbacks. High stability is positively related to mental health and happiness, including satisfaction with work and marriage.</string>
+    <string name="valorEsBaixa">Stability is linked to emotional stability. Stability means adaptability, equanimity, maturity and resistance to stress. People of low stability are neurotic, anxious, worried, shy, depressed, pessimistic, quickly angry, cry easily, and slow to recover from setbacks.</string>
+    <string name="valorEsNormal">Stability is linked to emotional stability. Stability means adaptability, equanimity, maturity and resistance to stress. Normal people take time to recover from stressful situations, have emotional difficulties getting angry, anxious but do not stay in this state constantly.</string>
+    <string name="valorExAlta">Extroversion is a person who is gentle, talkative, funny, expressive, assertive, active, socially self-confident and looking for emotion. Extroverts are social beings, introverts are solitary. People with high levels of extraversion show that they have many positive emotions, prefer to work with others and trust, have leadership, and want to be physically active.</string>
+    <string name="valorExBaixa">Extroversion is a person who is gentle, talkative, funny, expressive, assertive, active, socially self-confident and looking for emotion. Extroverts are social beings, introverts are solitary. People with low levels of extraversion tend to suppress positive feelings, prefer to work alone, are physically passive, are less confident, and are inclined to seek leadership roles.</string>
+    <string name="valorExNormal">Extroversion is a person who is gentle, talkative, funny, expressive, assertive, active, socially self-confident and looking for emotion. Extroverts are social beings, introverts are solitary. People with normal levels of extroversion have balanced moments of expression and communication but avoid taking on leadership roles.</string>
+
+
+</resources>

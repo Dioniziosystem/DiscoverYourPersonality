@@ -1,0 +1,106 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Descubra sua personalidade</string>
+    <string name="title">Descubra sua Personalidade</string>
+    <string name="question1">Possui uma imaginação ativa?</string>
+    <string name="question2">Possui poucos interesses artisticos?</string>
+    <string name="question3">É rigoroso no trabalho?</string>
+    <string name="question4">Tende a ser preguiçoso?</string>
+    <string name="question5">Costuma ser confiante?</string>
+    <string name="question6">Tende a encontrar defeitos nos outros?</string>
+    <string name="question7">É calmo, enfrenta bem o stress?</string>
+    <string name="question8">Fica nervoso facilmente?</string>
+    <string name="question9">É expansivo,sociavel?</string>
+    <string name="question10">É reservado?</string>
+    <string name="btResultado">Resultado</string>
+
+    <string-array name="points_answer">
+        <item>1 DISCORDO COMPLETAMENTE</item>
+        <item>2 DISCORDA UM POUCO</item>
+        <item>3 NAO DISCORDA NEM CONCORDA</item>
+        <item>4 CONCORDA UM POUCO</item>
+        <item>5 CONCORDA COMPLETAMENTE</item>
+    </string-array>
+
+    <string name="titleAbAlta">Abertura Alta: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorAbAlta">Abertura é abertura diante da experiência: curiosidade, busca pela novidade, abertura da mente, interesse em cultura, ideias
+                    e estética. A abertura indica sensibilidade emocional, tolerância social e liberalismo político. As pessoas que apresentam elevados
+                    níveis de abertura tendem a procurar a complexidade e a novidade, aceitam facilmente mudanças e inovações e preferem  grandes
+                    visões novas do que rotinas mundanas e previsíveis.</string>
+
+    <string name="titleAbBaixa">Abertura Baixa: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorAbBaixa">Abertura é abertura diante da experiência: curiosidade, busca pela novidade, abertura da mente, interesse em cultura, ideias
+                    e estética. A abertura indica sensibilidade emocional, tolerância social e liberalismo politico. As pessoas com baixos níveis de abertura
+                    tendem a procurar a simplicidade e a previsibilidade, resistem às mudanças e respeitam a tradição.</string>
+
+    <string name="titleAbNormal">Abertura Normal: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorAbNormal">Abertura é abertura diante da experiência: curiosidade, busca pela novidade, abertura da mente, interesse em cultura, ideias
+                    estética. A abertura prognostica sensibilidade emocional, tolerância social e liberalismo politico. As pessoas com níveis normais de abertura, tendem a
+                    ter resistência as mudanças, mas com o tempo aceitam as mudanças.</string>
+
+    <string name="titleCAlta">Conscienciosidade Alta: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorCAlta">Conscienciosidade corresponde a autocontrole, força de vontade, confiabilidade, coerência, fidedignidade e capacidade de retardar
+                    gratificações. As pessoas conscienciosas visam a objetivos de longo prazo. Cumprem promessas e compromissos, resistem aos impulsos e aos
+                    maus costumes e se sentem envolvidas numa rede de obrigações sociais mútuas. Gostam de fazer projetos, manter tudo organizado, buscam a
+                    perfeição, anseiam por realizações e preferem executar e se concentrar em uma única tarefa de cada vez.</string>
+
+    <string name="titleCBaixa">Conscienciosidade Baixa: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorCBaixa">Conscienciosidade corresponde a autocontrole, força de vontade, confiabilidade, coerência, fidedignidade e capacidade de retardar
+                    gratificações. Pessoas com pouca conscienciosidade tendem a se sentir mais confortáveis com a espontaneidade e o caos. Aceitam coisas,
+                    pessoas e níveis de realização \"regulares\" em vez de \"ótimos\", e se alternam com mais facilidades entre tarefas correntes. Contudo,
+                    também demonstram ter níveis mais baixos de motivação e ambição.</string>
+
+    <string name="titleCNormal">Conscienciosidade Normal: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorCNormal">Conscienciosidade corresponde a autocontrole, força de vontade, confiabilidade, coerência, fidedignidade e capacidade de retardar
+                    gratificações. Pessoas com níveis normais de conscienciosidade procuram realizar tarefas mas, não tem obsessão pela perfeição e prazo de
+                    entrega.</string>
+
+    <string name="titleAfAlta">Afabilidade Alta: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorAfAlta">Afabilidade está relacionado a cordialidade, gentileza, simpatia, empatia, confiança, modéstia e benevolência.
+                    Pessoas com elevada afabilidade tendem a procurar harmonia, a adaptar-se às necessidades alheias e a guardar opiniões
+                    para si mesmas a fim de evitar conflitos.</string>
+
+    <string name="titleAfBaixa">Afabilidade Baixa: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorAfBaixa">Afabilidade está relacionado a cordialidade, gentileza, simpatia, empatia, confiança, modéstia e benevolência.
+                    As pessoas de baixa afabilidade tendem a procurar gloria ou a notoriedade, a satisfazer as próprias necessidades
+                    e expressar suas opiniões veementemente.</string>
+
+    <string name="titleAfNormal">Afabilidade Normal: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorAfNormal">Afabilidade está relacionado a cordialidade, gentileza, simpatia, empatia, confiança, modéstia e benevolência.
+                    As pessoas com afabilidade normal buscam evitar conflitos porém quando forçadas expressam suas verdadeiras opiniões.</string>
+
+    <string name="titleEsAlta">Estabilidade Alta: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorEsAlta">Estabilidade está ligada a estabilidade emocional. Estabilidade significa adaptabilidade,
+                    equanimidade, maturidade e resistência ao stress. As pessoas altamente estáveis são joviais,
+                    normalmente, otimistas, calmas, sentem-se à vontade e recuperam-se rapidamente de contrariedades.
+                    A elevada estabilidade está relacionada positivamente à saúde mental e à felicidade, inclusive à
+                    satisfação com o trabalho e com o casamento.</string>
+
+    <string name="titleEsBaixa">Estabilidade Baixa: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorEsBaixa">Estabilidade está ligada a estabilidade emocional. Estabilidade significa adaptabilidade,
+                    equanimidade, maturidade e resistência ao stress.As pessoas de baixa estabilidade são neuróticas,
+                    ansiosas, preocupadas, tímidas, deprimidas, pessimistas, ficam rapidamente zangadas, choram facilmente
+                    e demoram a se recuperar diante de contrariedades.</string>
+
+    <string name="titleEsNormal">Estabilidade Normal: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorEsNormal">Estabilidade está ligada a estabilidade emocional. Estabilidade significa adaptabilidade, equanimidade,
+                    maturidade e resistência ao stress. Pessoas normais levam tempo para recuperar de situacões de stress,
+                    tem dificuldades emocionais ficando zangadas, ansiosas porém não ficam neste estado constantemente.</string>
+
+    <string name="titleExAlta">Extroversão Alta: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorExAlta">Extroversão é uma pessoa gentil, falante, engraçada, expressiva, assertiva, ativa, socialmente
+                    autoconfiante e em busca de emoção. Os extrovertidos são seres sociais, os introvertidos são solitários.
+                    Pessoas com elevados níveis de extroversão demonstram ter muitas emoções positivas, preferem trabalhar com
+                    outras pessoas e confiam nelas, detêm liderança e querem estar fisicamente ativas.</string>
+
+    <string name="titleExBaixa">Extroversão Baixa: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorExBaixa">Extroversão é uma pessoa gentil, falante, engraçada, expressiva, assertiva, ativa, socialmente autoconfiante
+                    e em busca de emoção. Os extrovertidos são seres sociais, os introvertidos são solitários. As pessoas que
+                    apresentam baixos níveis de extroversão tendem a suprimir os sentimentos positivos, preferem trabalhar sozinhas,
+                    são fisicamente passivas, são menos confiantes e inclinadas a procurar papéis de liderança.</string>
+
+    <string name="titleExNormal">Extroversão Normal: <xliff:g id="valorFinal">%d</xliff:g></string>
+    <string name="valorExNormal">Extroversão é uma pessoa gentil, falante, engraçada, expressiva, assertiva, ativa, socialmente autoconfiante e
+                    em busca de emoção. Os extrovertidos são seres sociais, os introvertidos são solitários. Pessoas com níveis normais
+                    de extroversão tem momentos equilibrados de expressão e comunicação mas evitam assumir papéis de lideranças.</string>
+
+</resources>
