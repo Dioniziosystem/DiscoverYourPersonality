@@ -1,3 +1,4 @@
+//Autor app: Emerson B Dionizio
 package com.example.android.discoveryourpersonality;
 
 import android.app.Activity;

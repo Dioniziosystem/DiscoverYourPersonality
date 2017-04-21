@@ -15,11 +15,11 @@
     <string name="title">Discover Your Personality</string>
 
     <string-array name="points_answer">
-        <item>1 I DISAGREE COMPLETELY</item>
-        <item>2 DISAGREE A LITTLE</item>
-        <item>3 DO NOT DISAGREE OR AGREE</item>
-        <item>4 AGREE LITTLE</item>
-        <item>5 I AGREE COMPLETELY</item>
+        <item>I DISAGREE COMPLETELY</item>
+        <item>DISAGREE A LITTLE</item>
+        <item>DO NOT DISAGREE OR AGREE</item>
+        <item>AGREE LITTLE</item>
+        <item>I AGREE COMPLETELY</item>
     </string-array>
 
     <string name="titleAbAlta">High Aperture: <xliff:g id="valorFinal">%d</xliff:g></string>

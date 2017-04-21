@@ -14,11 +14,11 @@
     <string name="btResultado">Resultado</string>
 
     <string-array name="points_answer">
-        <item>1 DISCORDO COMPLETAMENTE</item>
-        <item>2 DISCORDA UM POUCO</item>
-        <item>3 NAO DISCORDA NEM CONCORDA</item>
-        <item>4 CONCORDA UM POUCO</item>
-        <item>5 CONCORDA COMPLETAMENTE</item>
+        <item>DISCORDO COMPLETAMENTE</item>
+        <item>DISCORDA UM POUCO</item>
+        <item>NAO DISCORDA NEM CONCORDA</item>
+        <item>CONCORDA UM POUCO</item>
+        <item>CONCORDA COMPLETAMENTE</item>
     </string-array>
 
     <string name="titleAbAlta">Abertura Alta: <xliff:g id="valorFinal">%d</xliff:g></string>
@@ -83,7 +83,7 @@
 
     <string name="titleEsNormal">Estabilidade Normal: <xliff:g id="valorFinal">%d</xliff:g></string>
     <string name="valorEsNormal">Estabilidade está ligada a estabilidade emocional. Estabilidade significa adaptabilidade, equanimidade,
-                    maturidade e resistência ao stress. Pessoas normais levam tempo para recuperar de situacões de stress,
+                    maturidade e resistência ao stress. Pessoas normais levam tempo para recuperar de situações de stress,
                     tem dificuldades emocionais ficando zangadas, ansiosas porém não ficam neste estado constantemente.</string>
 
     <string name="titleExAlta">Extroversão Alta: <xliff:g id="valorFinal">%d</xliff:g></string>
