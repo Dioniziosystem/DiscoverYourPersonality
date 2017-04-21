@@ -54,29 +54,29 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                valor1 = Integer.valueOf(spinner1.getSelectedItem().toString().substring(0, 1));
-                valor2 = Integer.valueOf(spinner2.getSelectedItem().toString().substring(0, 1));
+                valor1 = spinner1.getSelectedItemPosition() + 1;
+                valor2 = spinner2.getSelectedItemPosition() + 1;
                 //Formula: q1-q2=-4 ate +4
                 valorAb = valor1 - valor2;
 
 
-                valor1 = Integer.valueOf(spinner3.getSelectedItem().toString().substring(0, 1));
-                valor2 = Integer.valueOf(spinner4.getSelectedItem().toString().substring(0, 1));
+                valor1 = spinner3.getSelectedItemPosition() + 1;
+                valor2 = spinner4.getSelectedItemPosition() + 1;
                 valorC = valor1 - valor2;
 
 
-                valor1 = Integer.valueOf(spinner5.getSelectedItem().toString().substring(0, 1));
-                valor2 = Integer.valueOf(spinner6.getSelectedItem().toString().substring(0, 1));
+                valor1 = spinner5.getSelectedItemPosition() + 1;
+                valor2 = spinner6.getSelectedItemPosition() + 1;
                 valorAf = valor1 - valor2;
 
 
-                valor1 = Integer.valueOf(spinner7.getSelectedItem().toString().substring(0, 1));
-                valor2 = Integer.valueOf(spinner8.getSelectedItem().toString().substring(0, 1));
+                valor1 = spinner7.getSelectedItemPosition() + 1;
+                valor2 = spinner8.getSelectedItemPosition() + 1;
                 valorEs = valor1 - valor2;
 
 
-                valor1 = Integer.valueOf(spinner9.getSelectedItem().toString().substring(0, 1));
-                valor2 = Integer.valueOf(spinner10.getSelectedItem().toString().substring(0, 1));
+                valor1 = spinner9.getSelectedItemPosition() + 1;
+                valor2 = spinner10.getSelectedItemPosition() + 1;
                 valorEx = valor1 - valor2;
 
                 Intent resultSearch = new Intent(MainActivity.this, ResultSearch.class);
