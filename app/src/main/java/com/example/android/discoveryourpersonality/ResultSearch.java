@@ -16,9 +16,14 @@ public class ResultSearch extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.result_search);
+        //Criacao do WebView para visualizacao das informaçoes no formato justificado
         webViewResultado = (WebView) findViewById(R.id.webResultado);
 
+        //Recebimento do valor das variaveis que foram calculadas da classe MainActivity
         valorFinal = MainActivity.valorAb;
+
+//        Condicao que avalia o resultado das escolhas do usuario para determinar o nivel (baixo,normal,alta) das caracteristicas
+//        que serão citadas no resultado final
 
         if (valorFinal == 3 || valorFinal == 4) {
             resultadofinal += "<html><body>" + "<p align=\"justify\">" + "<font color=\"blue\">" +
@@ -111,6 +116,7 @@ public class ResultSearch extends Activity {
         //settings.setDefaultTextEncodingName("utf-8");
         settings.setDefaultFontSize(20);
         webViewResultado.setBackgroundColor(Color.parseColor("#ADFF2F"));
+        //Codificaçao utf-8 para exibir corretamente os caracteres especiais
         webViewResultado.loadDataWithBaseURL(null, resultadofinal, "text/html", "utf-8", null);
 
     }

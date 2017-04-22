@@ -11,15 +11,18 @@ import android.widget.Spinner;
 
 
 public class MainActivity extends Activity {
+    //Variaveis usadas no codigo
     private Spinner spinner1, spinner2, spinner3, spinner4, spinner5, spinner6, spinner7, spinner8, spinner9, spinner10;
     private Button btMensagem;
-    public static int valorAb, valorC, valorAf, valorEs, valorEx, valor1, valor2;
+    private int valor1,valor2;
+    public static int valorAb, valorC, valorAf, valorEs, valorEx;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Objetos spinner que recebe informaçoes com layout activity_main
 
         spinner1 = (Spinner) findViewById(R.id.option_personality1);
         spinner2 = (Spinner) findViewById(R.id.option_personality2);
@@ -32,7 +35,7 @@ public class MainActivity extends Activity {
         spinner9 = (Spinner) findViewById(R.id.option_personality9);
         spinner10 = (Spinner) findViewById(R.id.option_personality10);
 
-
+        //Criacao do objeto ArrayAdapter que vai manipular informacoes das escolhas do usuario no menu
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.points_answer,
                 android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -53,11 +56,12 @@ public class MainActivity extends Activity {
         btMensagem.setOnClickListener(new View.OnClickListener() {
 
 
+            //            Metodo do btMensagem para realizar o cálculo com a formula valor1-valor2=(-4 ate +4) atraves
+//            do getSelectioPosition()+1
             @Override
             public void onClick(View v) {
                 valor1 = spinner1.getSelectedItemPosition() + 1;
                 valor2 = spinner2.getSelectedItemPosition() + 1;
-                //Formula: q1-q2=-4 ate +4
                 valorAb = valor1 - valor2;
 
 
@@ -80,6 +84,7 @@ public class MainActivity extends Activity {
                 valor2 = spinner10.getSelectedItemPosition() + 1;
                 valorEx = valor1 - valor2;
 
+                //Resultado é enviado para uma nova Activity
                 Intent resultSearch = new Intent(MainActivity.this, ResultSearch.class);
                 startActivity(resultSearch);
 
